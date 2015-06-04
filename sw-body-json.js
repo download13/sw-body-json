@@ -5,7 +5,7 @@ module.exports = function(opts) {
 
 	return function(req, res, next) {
 		// Only bother with JSON bodies
-		if(req.header['content-type'] !== 'application/json') {
+		if(req.headers['content-type'] !== 'application/json') {
 			next();
 			return;
 		}
@@ -29,6 +29,7 @@ module.exports = function(opts) {
 			} catch(e) {
 				req.body = {};
 			}
+
 			next();
 		});
 	}
