@@ -1,6 +1,6 @@
 {
   "name": "sw-body-json",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Middleware that parses the JSON body of a request",
   "main": "sw-body-json.js",
   "repository": "https://github.com/download13/sw-body-json.git",
@@ -9,5 +9,11 @@
     "name": "Erin Dachtler",
     "email": "download333@gmail.com"
   },
-  "keywords": ["middlware", "http", "body", "json", "parse"]
+  "keywords": [
+    "middlware",
+    "http",
+    "body",
+    "json",
+    "parse"
+  ]
 }
